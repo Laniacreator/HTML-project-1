@@ -1,0 +1,181 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Lania Kirat</h1>
+
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- HOME -->
+        <section id="home" class="hero">
+            <h2>Hello, I'm Your Lania!</h2>
+            <p>Web Developer | Designer</p>
+            <a href="#about" class="btn">Discover More</a>
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about">
+            <h2>About Me</h2>
+
+            <p>
+                Hello! I am a web development student
+                passionate about creating beautiful websites.
+                I enjoy learning HTML, CSS and JavaScript.
+            </p>
+
+            <h3>My Skills</h3>
+
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>Web Design</li>
+            </ul>
+
+            <h3>My Introduction Video</h3>
+
+            <video width="400" controls>
+                <source src="my-video.mp4" type="video/mp4">
+            </video>
+
+            <h3>Audio</h3>
+
+            <audio controls>
+                <source src="my-audio.mp3" type="audio/mpeg">
+            </audio>
+        </section>
+
+        <!-- WORK -->
+        <section id="work" class="work">
+            <h2>My Work</h2>
+
+            <div class="projects">
+
+                <article class="project-card">
+                    <h3>Project 1</h3>
+                    <p>My first HTML and CSS website.</p>
+                </article>
+
+                <article class="project-card">
+                    <h3>Project 2</h3>
+                    <p>A creative landing page design.</p>
+                </article>
+
+                <article class="project-card">
+                    <h3>Project 3</h3>
+                    <p>My personal portfolio website.</p>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- RESUME -->
+        <section id="resume">
+            <h2>My Resume</h2>
+
+            <p>My education and learning experience.</p>
+
+            <table>
+                <tr>
+                    <th>Year</th>
+                    <th>Experience</th>
+                    <th>Description</th>
+                </tr>
+
+                <tr>
+                    <td>2021</td>
+                    <td>Bachelor's Degree</td>
+                    <td>First year of bachelor's degree at the university...</td>
+                </tr>
+
+                <tr>
+                    <td>2022</td>
+                    <td>Bachelor's Degree</td>
+                    <td>Second year of bachelor's degree at the university...</td>
+                </tr>
+
+                <tr>
+                    <td>2023</td>
+                    <td>Bachelor's Degree</td>
+                    <td>Third year of bachelor's degree at the university...</td>
+                </tr>
+
+                <tr>
+                    <td>2024</td>
+                    <td>Master's Degree</td>
+                    <td>First year of master's degree at the university...</td>
+                </tr>
+
+                <tr>
+                    <td>2025</td>
+                    <td>Master's Degree</td>
+                    <td>Second year of master's degree at the university...</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact" class="contact">
+            <h2>Contact Me</h2>
+
+            <p>Feel free to contact me!</p>
+
+            <form action="#" method="post">
+
+                <label for="name">Full Name</label>
+                <input type="text" id="name"
+                       name="name" placeholder="Your name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email"
+                       name="email" placeholder="Your email" required>
+
+                <label for="subject">Subject</label>
+                <select id="subject" name="subject">
+                    <option>New Project</option>
+                    <option>Collaboration</option>
+                    <option>Other</option>
+                </select>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message"
+                          rows="5" placeholder="Write your message..."
+                          required></textarea>
+
+                <button type="submit">Send Message</button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2026 My Portfolio. All Rights Reserved.</p>
+        <a href="#home">Back to Top</a>
+    </footer>
+
+</body>
+</html>
